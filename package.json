@@ -444,6 +444,13 @@
         "default": "./webcrypto.js"
       }
     },
+    "./crypto": {
+      "default": {
+        "module": "./crypto.js",
+        "require": "./dist/webcrypto.cjs",
+        "default": "./webcrypto.js"
+      }
+    },
     "./performance.js": "./performance.js",
     "./dist/performance.cjs": "./dist/performance.node.cjs",
     "./performance": {
@@ -464,6 +471,7 @@
     }
   },
   "dependencies": {
+    "@peculiar/webcrypto": "^1.4.3",
     "isomorphic.js": "^0.2.4"
   },
   "devDependencies": {

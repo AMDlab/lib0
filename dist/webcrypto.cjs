@@ -2,7 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-/* eslint-env browser */
+var crypto = require('./crypto.cjs');
+require('@peculiar/webcrypto');
 
 const subtle = crypto.subtle;
 const getRandomValues = crypto.getRandomValues.bind(crypto);
