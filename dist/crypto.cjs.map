@@ -1,0 +1,1 @@
+{"version":3,"file":"crypto.cjs","sources":["../crypto.js"],"sourcesContent":["import { Crypto } from '@peculiar/webcrypto'\n\nexport default new Crypto()\n"],"names":["Crypto"],"mappings":";;;;AAEA,aAAe,IAAIA,gBAAM;;;;"}
